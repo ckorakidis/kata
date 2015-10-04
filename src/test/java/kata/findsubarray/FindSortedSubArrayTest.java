@@ -26,6 +26,8 @@ public class FindSortedSubArrayTest {
         {new int[]{4, 5}, new int[]{2, 3, 4, 5}, 2},
         {new int[]{4, 5}, new int[]{2, 4, 4, 5}, 2},
         {new int[]{4, 5}, new int[]{2, 3, 4, 4, 4, 5, 6, 7}, 4},
+        {new int[]{4, 4, 5}, new int[]{2, 3, 4, 4, 4, 5, 6, 7}, 3},
+        {new int[]{4, 4, 5}, new int[]{2, 3, 4, 5, 6, 7}, -1},
         {new int[]{4, 5}, new int[]{2, 3, 4, 4, 4, 6, 7}, -1},
         {new int[]{4, 5, 5}, new int[]{2, 3, 4, 5, 5}, 2},
         {new int[]{4, 5, 5}, new int[]{2, 3, 4, 5}, -1},
